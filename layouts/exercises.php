@@ -36,7 +36,7 @@
          ?>
           
         <h2>Kõikide piltide väljastamine</h2>
-        <!--  Sisesta siia kood -->
+       
 
         <?php
           for ($images=1; $images < 13; $images++) { 
