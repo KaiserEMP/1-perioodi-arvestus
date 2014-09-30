@@ -2,6 +2,13 @@
 <html>
 <head>
   <?php include "../components/html-head.php"; ?>
+  <style type="text/css">
+  .pilt {
+    height: 250px;
+    width: auto;
+  }
+
+  </style>
 </head>
 
 <body>
@@ -30,6 +37,13 @@
           
         <h2>Kõikide piltide väljastamine</h2>
         <!--  Sisesta siia kood -->
+
+        <?php
+          for ($images=1; $images < 13; $images++) { 
+            echo '<img class="pilt" src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.$images.'.jpg">';
+          };
+
+         ?>
       </section>
     </main>
 
